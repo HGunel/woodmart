@@ -1,0 +1,93 @@
+.navbar img {
+  width: 200px;
+}
+.navbar .d-flex {
+  width: 19%;
+  height: 65px;
+  align-items: center;
+  justify-content: space-between;
+  border-left: 1px solid;
+  padding: 4px;
+  border-color: #E4E4E4;
+}
+
+.back-img {
+  width: 100%;
+  padding: 30px;
+  background-image: url("https://z9d7c4u6.rocketcdn.me/wp-content/uploads/2018/05/book-slider-s3-bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 3;
+}
+.back-img::after {
+  position: absolute;
+  content: "";
+  width: 70%;
+  height: 100%;
+  top: 0;
+  left: 40%;
+  background-color: #fff;
+  opacity: 0.9;
+  z-index: 4;
+}
+.back-img .col-md-6 {
+  z-index: 5;
+}
+.back-img .button .btn-1 {
+  border-radius: 25px;
+  background-color: #8ED1DA;
+  padding: 10px;
+  border: none;
+}
+.back-img .button .btn-2 {
+  border-radius: 25px;
+  padding: 9px;
+  border: 2px solid #CCC;
+}
+.back-img h5, .back-img p {
+  color: #9B9B9C;
+}
+.back-img .text-div {
+  margin-top: 40px;
+  margin-left: 70px;
+}
+.back-img .text-div .text-2 {
+  width: 100%;
+}
+.back-img .text-div .text-2 h1 {
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.back-img .text-div .text-3 {
+  width: 80%;
+}
+
+.card {
+  border: none;
+}
+.card p {
+  color: #9B9B9C;
+}
+.card span p {
+  color: black;
+}
+
+#chr-img {
+  border-radius: 50%;
+}
+
+#card-chr {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#chr-img:hover {
+  opacity: 0.8;
+}
+
+svg:hover {
+  opacity: 0.8;
+}/*# sourceMappingURL=style.css.map */

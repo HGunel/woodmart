@@ -7,11 +7,14 @@ import { Link } from 'react-router-dom';
 const Character = () => {
 const [characters,setCharacters]= useState([]);
 useEffect(()=>{
-    const fetchApi = async()=>{
-        const comingData = await axios.get('https://rickandmortyapi.com/api/character')
+    const abortController = new AbortController()
+    const fetchApi = async(_abortController)=>{
+        const comingData = await axios.get('https://rickandmortyapi.com/api/character', {cancelToken: _abortController.signal})
         setCharacters(comingData.data.results);
     }
-    fetchApi(); 
+    fetchApi(abortController); 
+
+    return () => abortController.abort()
 },[])
 
 

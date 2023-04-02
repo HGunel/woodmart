@@ -12,7 +12,7 @@ const Header = () => {
 
   const checkForm = (e) => {
     if (!inputEmail || !inputPassw) {
-    e.preventDefault();
+      e.preventDefault();
       setAlertStyle("alert alert-warning");
       setAlertText("Please, fill input!");
     } else {
@@ -24,7 +24,7 @@ const Header = () => {
         setAlertText("Successfully logged in");
         navigate("/characters");
       } else {
-    e.preventDefault();
+        e.preventDefault();
         setAlertStyle("alert alert-danger");
         setAlertText("WRONG EMAIL!");
       }
@@ -101,21 +101,21 @@ const Header = () => {
               <div className="icon-1">
                 <button
                   type="button"
-                  class="btn"
+                  className="btn"
                   data-bs-toggle="modal"
                   data-bs-target="#exampleModal"
                 >
-                  <i class="fa-regular fa-user"></i>
+                  <i className="fa-regular fa-user"></i>
                 </button>
               </div>
               <div className="icon-2">
-                <i class="fa fa-search"></i>
+                <i className="fa fa-search"></i>
               </div>
               <div className="icon-3">
-                <i class="fa-regular fa-heart"></i>
+                <i className="fa-regular fa-heart"></i>
               </div>
               <div className="icon-4">
-                <i class="fa fa-shopping-cart"></i>
+                <i className="fa fa-shopping-cart"></i>
               </div>
               <div className="icon-4">
                 <p className="dollar mb-0"> $0.00</p>

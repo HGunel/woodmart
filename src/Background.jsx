@@ -16,7 +16,7 @@ export class Background extends Component {
           <div className="col-12 col-md-6">
             <div className="text-div">
               <div className="text-1">
-             
+
                 <h5>WORLD BESTELLERS</h5>
               </div>
               <div className="text-2">
@@ -31,10 +31,10 @@ export class Background extends Component {
                 </p>
               </div>
               <div className="button">
-                <button class="btn-1  btn-lg me-3">
-                 ADD TO CART
+                <button className="btn-1  btn-lg me-3">
+                  ADD TO CART
                 </button>
-                <button class="btn-2 bg-transparent btn-lg">
+                <button className="btn-2 bg-transparent btn-lg">
                   VIEW MORE
                 </button>
               </div>

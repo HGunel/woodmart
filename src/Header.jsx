@@ -12,7 +12,7 @@ const Header = () => {
 
   const checkForm = (e) => {
     if (!inputEmail || !inputPassw) {
-    e.preventDefault();
+      e.preventDefault();
       setAlertStyle("alert alert-warning");
       setAlertText("Please, fill input!");
     } else {
@@ -24,7 +24,7 @@ const Header = () => {
         setAlertText("Successfully logged in");
         navigate("/characters");
       } else {
-    e.preventDefault();
+        e.preventDefault();
         setAlertStyle("alert alert-danger");
         setAlertText("WRONG EMAIL!");
       }

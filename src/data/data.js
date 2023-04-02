@@ -1,11 +1,11 @@
 const dataLogin = [
     {
         mail: "gunel@gmail.com",
-        password:"g2001"
+        password: "g2001"
     },
     {
         mail: "gh@gmail.com",
-        password:"2023g"
+        password: "2023g"
     }
 ]
 

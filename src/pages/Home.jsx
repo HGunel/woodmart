@@ -5,7 +5,7 @@ import Background from "../Background";
 const Home = () => {
   return (
     <>
-      <Background/>
+      <Background />
       <Icons />
     </>
   );

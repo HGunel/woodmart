@@ -6,15 +6,13 @@ import CharacterDetails from "./pages/CharacterDetails";
 
 function App() {
   return (
-
-   <BrowserRouter>
-   <Header/>
-        <Routes>
-            <Route path='/' element={<Home />}></Route>
-            <Route path="/characters" element={<Character/>}></Route>
-            <Route path='/:url' element={<CharacterDetails />}></Route>
-        
-        </Routes>
+    <BrowserRouter>
+      <Header />
+      <Routes>
+        <Route path='/' element={<Home />}></Route>
+        <Route path="/characters" element={<Character />}></Route>
+        <Route path='/:url' element={<CharacterDetails />}></Route>
+      </Routes>
     </BrowserRouter>
   );
 }

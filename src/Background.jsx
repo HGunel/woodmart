@@ -31,10 +31,10 @@ export class Background extends Component {
                 </p>
               </div>
               <div className="button">
-                <button class="btn-1  btn-lg me-3">
+                <button className="btn-1  btn-lg me-3">
                  ADD TO CART
                 </button>
-                <button class="btn-2 bg-transparent btn-lg">
+                <button className="btn-2 bg-transparent btn-lg">
                   VIEW MORE
                 </button>
               </div>
